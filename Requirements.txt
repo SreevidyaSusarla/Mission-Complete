@@ -1,0 +1,57 @@
+AAMC POST FLIGHT DIRECT REQUIREMENTS: images you collected in flight..map them with the gps location where the aircraft was and skew the image in horizontal plane.
+Interface with Dr. Qi's project.
+Plug in SSD
+Find the data
+Click on the correct data set
+Puts the images on the Esri basemap
+Requires camera info
+must satisfy lan's needs.
+
+Preflight makes the flight plan. Take the data and process it to the post flight wch maps the image in the horiontal plane. Want preflight code written by end of semester.
+
+Use RGIS with java sdk. old version roldwin for road map.
+
+AAMC PREFLIGHT:
+OLD REQUIREMENTS:
+Generate Waypoins, Flight lines, and Survey Areas.
+Draw them on ESRI map.
+Generate boundaries and draw them.
+Import/Export to the following formats of XML(import optional)
+	PPRZ
+	KML(and convert to KMZ)
+	FPL
+The ability to save.
+The ability to edit waypoints (and thus flightlines and survey areas) graphically and textually.
+Origin point(Zoom in)
+Area of study.
+Zoom to area on import
+Ground Elevation
+Change flight altitude.
+
+Make flight plan for mission complete. Austin wrote bunch of codes called flight survey areas in poporoxy.
+It is a box where the flights moves.They have an XML header.
+
+MISSION COMPLETE: Things needed to fly the plane: altitude, drone..CUrrent s/w is dying cuz not being updated. Get data from servers to https for better security.
+Technologies ised: Java, SDK
+Tasks to do: Rescope
+				1. Pre mission
+				2. Post mission
+Based on what camera u use, the image u capture.
+
+ASD - B : New requirement. Permission from the govt. It gives a point that any aircraft can see us with the signal. Python code, sage check transplantor(check if its working)
+Add a aircraft ID, signal the transplandor control codes and add squak code. New design changes shud be made to implement. COnsider few oher factors.
+Doesnt have a GUI. has only command interface.
+
+Server testing: All images/data we get from the m/c. Get on to the amazon cloud so that the data can could run super fast. Dint do anything. Everything is done on desktp computers. Go to amazon cloud and test run ti check if the data is running syer fast or not.
+
+Server Upkeep: Two servers are down. Need maintainance so that they are not down again. We are currently doing a RMA now. Remove hard drives out and put them into the new server.
+
+Payload System: Start testing new AVI stuff. WHen there is a switch from serial to isec, if there is no proper image on linux, it doesnt work. isec ids a prog that collects data from poporoxy and transfers data to payload thru tcp connection and it is done. We use an image wchz on the server. We need to clone the image from sd card and put it on motherboard. it is also done. DO that automatically.i think thats done but shud test once.
+
+Aggie Cap3: It is done. Few modification are done by Ligia-testing shud be done. 
+
+Config GUI: Tasks: Working on form validations this week.it is for the payload system. Testing shud be done.every other thing is done.
+
+Radios: 2 flavors of radios. One used. Other unused. COnfigure the new one.
+Wrote a doc to configre the radios.
+
